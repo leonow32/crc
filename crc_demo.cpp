@@ -1,4 +1,4 @@
-#include "../config.h"
+#include "../_config/_config.h"
 #if COMPONENT_CRC
 #include "crc_demo.h"
 #if CRC_USE_DEMO_COMMANDS
