@@ -45,7 +45,7 @@
 //	#define CRC16_REFLECT_IN			true
 //	#define CRC16_REFLECT_OUT			true
 
-	#define CRC_USE_DEMO_COMMANDS 		1
+	#define CRC_USE_DEMO_COMMANDS 		true
 	#define CRC_CONFIG_DONE
 #endif
 
