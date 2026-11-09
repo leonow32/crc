@@ -15,10 +15,13 @@ void crc16_cmd(int argc, char * argv[]) {
 
 	if(parse_hex_string(argv[1], data, &length, sizeof(data))) return;
 
+	ExecutionTimer timer = ExecutionTimer();
 	uint16_t value = crc16(data, length);
+	timer.end();
 
 	printf("Len: %u \n", length);
 	printf("CRC: %04X \n", value);
+	timer.print();
 }
 
 }
