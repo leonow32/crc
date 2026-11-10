@@ -6,9 +6,7 @@
 namespace crc {
 
 void crc16_cmd(int argc, char * argv[]) {
-	if(argc == 1) {
-		printf("data[hexstr]\n");
-	}
+	CMD_HELP("data:hexstr");
 
 	uint8_t data[128] = {0};
 	size_t length = 0;
