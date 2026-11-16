@@ -1,6 +1,8 @@
 #ifndef CRC_CONFIG_H_
 #define CRC_CONFIG_H_
 
+#define CRC_CONFIG_VERSION				261116
+
 #if PRODUCT_DEMO
 
 	// CRC-16/MAXIM-DOW
